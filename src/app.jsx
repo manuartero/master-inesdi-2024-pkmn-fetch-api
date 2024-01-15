@@ -1,12 +1,12 @@
-import React from 'react';
-import { PokemonCard } from './components/pokemon-card';
-import { usePokemonData } from './hooks/use-pokemon-data';
+import React from "react";
+import { PokemonCard } from "./components/pokemon-card";
+import { usePokemonData } from "./hooks/use-pokemon-data";
 
-import './style.css';
+import "./style.css";
 
 export function App() {
-  const { isLoading, pokemonData } = usePokemonData(false)
-  
+  const { isLoading, pokemonData } = usePokemonData(false);
+
   if (isLoading) {
     return <div>Loading...</div>;
   }

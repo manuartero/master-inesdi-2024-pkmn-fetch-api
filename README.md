@@ -1,3 +1,9 @@
-# master-inesdi-2023-pkmn-fetching-data
+# Master INESDI 2024 / `pkmn-fetch-api`
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/stackblitz-starters-nodfpp)
+## Week 3: Fetch API
+
+```bash
+git clone https://github.com/manuartero/master-inesdi-2024-pkmn-fetch-api
+cd master-inesdi-2024-pkmn-fetch-api
+npm i && npm run dev
+```

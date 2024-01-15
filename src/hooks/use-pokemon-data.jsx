@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import pkm from './pkm-mock.json';
 
 export function usePokemonData(mock = true) {
